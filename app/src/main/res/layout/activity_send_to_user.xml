@@ -5,8 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="#C8E4C9"
     android:layout_height="match_parent"
-    tools:context=".UI.SendToUserList">
+    tools:context=".Activities.SendToUserList">
 
     <TextView
         android:id="@+id/header"

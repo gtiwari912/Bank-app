@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.basicbankingapp">
+    package="com.Gaurav.basicbankingapp">
 
     <application
         android:allowBackup="true"
@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BasicBankingApp">
-        <activity android:name=".UI.SendToUserList"></activity>
-        <activity android:name=".UI.UsersList" />
-        <activity android:name=".UI.TransactionHistory" />
-        <activity android:name=".UI.UserData" />
-        <activity android:name=".UI.HomeScreen">
+        <activity android:name="com.Gaurav.basicbankingapp.Activities.infoActivity"></activity>
+        <activity android:name="com.Gaurav.basicbankingapp.Activities.SendToUserList" />
+        <activity android:name="com.Gaurav.basicbankingapp.Activities.CustomerList" />
+        <activity android:name="com.Gaurav.basicbankingapp.Activities.TransactionHistory" />
+        <activity android:name="com.Gaurav.basicbankingapp.Activities.CustomerData" />
+        <activity android:name="com.Gaurav.basicbankingapp.Activities.HomeScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
